@@ -13,6 +13,7 @@ import { FoodCardComponent } from './components/pages/home/food-card/food-card.c
 import { SingleRecipesComponent } from './components/pages/single-recipes/single-recipes.component';
 import { MainInformationComponent } from './components/pages/single-recipes/main-information/main-information.component';
 import { SimilarRecipesComponent } from './components/pages/single-recipes/main-information/similar-recipes/similar-recipes.component'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SimilarRecipesComponent } from './components/pages/single-recipes/main-
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
