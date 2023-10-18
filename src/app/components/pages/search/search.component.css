@@ -16,7 +16,8 @@ button {
 }
 
 .foodCard {
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 15px;
     width: 300px;
     height: auto;
     transform: 0.4s;
@@ -25,6 +26,8 @@ button {
 
 .cardImage {
     width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 .foodCard:hover {

@@ -1,10 +1,10 @@
 .cardRecipe {
     width: 350px;
     cursor: pointer;
-    border: 1px solid white;
+    border: 2px solid white;
     transition: 0.4s;
 }
 
 .cardRecipe:hover {
-    border-color: #ff0044;
+    border-color: #007C49;
 }
