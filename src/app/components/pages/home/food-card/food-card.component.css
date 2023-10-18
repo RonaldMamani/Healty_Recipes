@@ -1,16 +1,19 @@
 .food-card {
     width: 320px;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .food-card:hover {
-    border-color: #ff0044;
+    border-color: #007C49;
 }
 
 .imageCard {
     width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 .food-information {
