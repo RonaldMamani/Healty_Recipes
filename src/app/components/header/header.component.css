@@ -7,11 +7,11 @@ header {
 }
 
 .divHeader {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #808080;
 }
 
 .logo {
-    width: 40px;
+    width: 55px;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: #ff0044;
+    color: #007C49;
 }
 
 @media (max-width: 380px) {
