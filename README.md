@@ -1,27 +1,41 @@
-# HealtyRecipes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+# Healty Recipes
 
-## Development server
+Projeto de Site de Receitas onde é possivel visualizar e buscar receitas usando a API do [Spoonacular API](https://spoonacular.com/food-api), o projeto foi utilizando Angular com TypeScript e Bootstrap.
+## Deploy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O Projeto está em hospedagem na Vercel o link esta abaixo:
 
-## Code scaffolding
+Link: https://healty-recipes-pi.vercel.app/about
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+Instalação das dependencias do projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  npm install
+```
 
-## Running unit tests
+Rodar o Codigo do Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+    ng serve
+```
+    
+## Aprendizados
 
-## Running end-to-end tests
+O Projeto do Healty Recipes foi bastante interessante pois me introduziu a um projeto realizado em Angular, aprendi a usar comandos no angular e como consumir API no Angular e a criar componentes em Angular tambem, foi um projeto dificil mais bastante gratificante de aprender.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Funcionalidades
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Mostrar Receitas na Home da Pagina
+- Design Responsivo
+- Rotas Dinamicas em Cada Receita
+- Busca de Receitas na seção de Pesquisa
+
+
+## Autores
+
+- [RonaldMamani](https://github.com/RonaldMamani)
+
